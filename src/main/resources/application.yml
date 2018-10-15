@@ -4,7 +4,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://server.eureka.svc8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   instance:
       preferIpAddress: false
  
