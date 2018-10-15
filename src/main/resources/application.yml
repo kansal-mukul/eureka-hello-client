@@ -1,15 +1,11 @@
 spring:
   application:
     name: Eureka-Hello-Client
-server:
-  port: 8081
 eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://eureka-server-mukul-k.9a6d.starter-us-east-1a.openshiftapps.com/}
-  instance:
-    preferIpAddress: true
-   
+ 
 info:
     app:
       name: Eureka-Hello-Client
