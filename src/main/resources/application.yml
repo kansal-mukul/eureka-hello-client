@@ -6,7 +6,7 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://eureka-server-mukul-k.9a6d.starter-us-east-1a.openshiftapps.com/}
   instance:
-	  preferIpAddress: false
+      preferIpAddress: false
  
 info:
     app:
