@@ -4,7 +4,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://eureka-server-mukul-k.9a6d.starter-us-east-1a.openshiftapps.com/}
+      defaultZone: http://server.eureka.svc8761/eureka/
   instance:
       preferIpAddress: false
  
